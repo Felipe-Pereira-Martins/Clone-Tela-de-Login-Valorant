@@ -65,6 +65,7 @@
     color: var(--medium-grey);
     margin: 20px;
     cursor: text;
+    transition: all 200ms ease;
 }
 
 .input:focus {
@@ -75,4 +76,23 @@
 .login__label .span-active {
     font-size: 0.7em;
     margin: 8px 10px;
+}
+
+.login__icons {
+    display:flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: var(--blue);
+}
+
+.login__icons img {
+     width: 20px;
+}
+
+.icons__button {
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
