@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/icon.png">
     <script src="./script.js" defer></script>
-    <title>Riot Games</title>
+    <title>Iniciar Sessão </title>
 </head>
 <body>
     
     <main>
-        
         <section class="login">
 
-            <img src="./img/logo.png" alt="Logo" class="login__logo">
+            <div class="wrapper">
+                <img src="./img/logo.png" alt="Logo" class="login__logo">
 
             <h1 class="login__title">Fazer login</h1>
 
@@ -34,11 +35,11 @@
                 </button>
 
                 <button type="button" class="icons__button">
-                    <img src="./img/apple-icon.png" alt="facebook">
+                    <img src="./img/google-icon.png" alt="google">
                 </button>
 
                 <button type="button" class="icons__button">
-                    <img src="./img/google-icon.png" alt="facebook">
+                    <img src="./img/apple-icon.png" alt="apple">
                 </button>
         
             </div>
@@ -48,7 +49,7 @@
                  Manter login   
             </label>
             </div>
-
+    
             <div class="wrapper">
                 <button type="button" class="login__button" disabled>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -56,9 +57,10 @@
                   </svg>
                 </button>
             
-
-            <a href="#" class="login_link">não consegue acessar sessão</a>
-            <a href="#" class="login_link">Criar conta</a>
+                <div class="wrapper">
+                    <a href="#" class="login__link">não consegue acessar sessão</a>
+                    <a href="#" class="login__link">Criar conta</a>
+                </div>
 
             </div>
 
