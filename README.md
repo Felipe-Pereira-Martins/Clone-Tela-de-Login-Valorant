@@ -1,14 +1,18 @@
 ## :house: Descrição do Projeto
 O projeto se trata de um clone da página de login do jogo Valorant disponibliado pela empresa Riot Games.
 <br>
-Projeto feito com base no tutorial CSS, no canal Manual do Dev, Link no final do Readme. 
+Projeto feito com base no tutorial CSS, no canal Manual do Dev, Link no final do README. 
 <br> 
+## ✔️ Desenvolvimento do Projeto
+No desenvolvimento desse projeto, recriamos a página de login com as principais tecnologias que utilizamos no mundo Front End. Desenvolvemos as funcionalidades do nome de usuário e senha, no caso as animações. 
 
 ## ✔️ Tecnologias utilizadas
 
 - ``JavaScript``
+-> Trabalhamos com const e a estrutura de repetição if e else.
 - ``HTML``
 - ``CSS``
+-> Criamos variáveis para ajudar na manunteção do código.
 
 ##  :camera: Deploy
 Link do Vercel => https://tela-de-login-valorant-nine.vercel.app
